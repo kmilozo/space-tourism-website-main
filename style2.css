@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-size: cover;
+    background-image: url("./space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    padding: 0 20px;    
+}
+#menu li:nth-child(2){
+    border-bottom: 2px solid white;
+}
+#content{
+    display: flex;
+}
+#section{
+    width: 100%;
+    color: white;
+}
+#section #titulo{
+    display: flex;
+    margin: 80px;
+}
+#txtnum {
+    margin-right: 15px;
+    color: grey;
+}
+#imgluna{
+    margin: 10px;
+}
+#aside{
+    width: 100%;
+    color: white;
+}
+#aside #menus{
+    display: flex;
+    list-style: none;
+    margin: 155px 0 0 ;
+    margin-bottom: 50px;    
+}
+#menus li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+#menus li a:hover{
+    border-bottom: 2px solid white;
+}
+#descripcion #h1luna{
+    margin-bottom: 29px;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+#descripcion #pluna{
+    font-size: 20px;
+    margin-right: 150px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+#hrr{
+    width: 40%;
+    position: absolute;
+    top: 590px;
+    right: 131px;
+    color: rgba(236, 232, 232, 0.788);
+}
+#descripcion2 #textos{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.texto .h3.txt{
+    color: grey;
+}
+

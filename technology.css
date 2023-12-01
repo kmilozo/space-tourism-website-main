@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;    
+}
+body{
+    background-image: url('./space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+}
+#menu li:nth-child(4){
+    border-bottom: 2px solid white;
+}
+#lanzam #titulo{
+    width: 45%;
+    display: flex;
+    margin: 50px;
+    color:white;
+}
+#titulo #txtnum{
+    margin-right: 15px;
+    color: grey;
+}
+#late {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+#btns {
+    list-style: none;
+    font-size: 45px;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 32px;
+}
+#btns .btn {
+    margin-top: 50px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.414);
+    border-radius: 100%;
+    border: 1px solid #484C55;
+    padding: 10px 25px;
+}
+#descripcion{
+    color:rgb(168, 168, 168);
+    margin-top: 37px ;
+}
+#descripcion #h1veh{
+    margin-bottom: 12px;
+}
+#descripcion #vehi{
+    margin-bottom: 30px;
+    font-size: 55px;
+    color: white;
+} 
+#descripcion #pv{
+    line-height: 28px;
+    font-size: 19px;
+}
+#imgveh{
+    width: 50%;
+}
+
+

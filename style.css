@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-size: cover;
+    background-image: url("./space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg")
+}
+#container{
+    /* margin:  0 auto; */
+    width: 100%;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-right: 55px;
+}
+#logo{
+    margin: 12px 0;
+    margin-left: 50px;
+}
+hr{
+    margin-top: 47px;
+    width: 43%;
+    position: absolute;
+    top: 40px;
+    right: 680px;
+    left: 9%;
+    background-color: rgba(255,255,255,0.716 );
+}
+header #menu{
+   width: 31%;
+   padding-right: 240px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   background-color: rgba(11, 0, 0,0.2);
+   padding-left: 60px;
+   margin: 5px;
+   padding: 0 150px 0 80px;
+}
+#menu li a {
+    /* padding: 40px 0 ; */
+    color: white;
+    text-decoration: none; 
+    margin: 0 10px;
+}
+#menu li:nth-child(1){
+    border-bottom: 2px solid white;
+}
+#menu li a :hover{
+    border-bottom: 2px solid rgb(208, 10, 10);
+}
+/* content_section */
+#content{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 200px 150px 100px;
+}
+#content section{
+    width: 60%;
+}
+#texto #titulo{
+    margin: 200;
+    color: white;
+    margin-bottom: 24px;
+    font-weight: 400;
+    color: gray;
+    font-size: 18px;
+}
+#texto p{
+    font-size: 107px;
+    margin-bottom: 24px;
+    font-weight: 100;
+    color: white;
+    line-height: 130px ;
+}
+#texto #descripcion{
+    font-weight: 100;
+    color: gray;
+    width: 65%;
+    font-size: 12px;
+    line-height: 17px   
+}
+#btnaside{
+   border-radius: 200%;
+   padding: 73px 50px;
+   border: none;
+}
+#content aside{
+     margin: 50px; 
+}

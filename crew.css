@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-size: cover;
+    background-image: url("./space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    padding: 0 20px;    
+}
+#menu li:nth-child(3){
+    border-bottom: 2px solid white;
+}
+#content{
+    display: flex;
+}
+#section{
+    width: 100%;
+    color: white;
+}
+#section #titulo{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 66px;
+    color: white;
+}
+#titulo #txtnum{
+    margin-right: 15px;
+    color: gray;
+}
+#descripcion #h1com{
+    margin-bottom: 12px;
+    color: gray;
+}
+#descripcion #h1coma{
+    margin-bottom: 12px;
+    font-size: 45px;
+    color: white;
+}
+#descripcion #pcoma{
+    margin-bottom: 55px;
+    color: #D0D6F9;
+    text-align: justify;
+    line-height: 28px;
+}
+#btnsections ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.btnsection {
+    margin-right: 15px;
+}
+.btnsection a{
+    display: inline-block;
+    background-color:gray; 
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 100%;
+}
+.btnsection a:hover{
+    background-color: white;
+}
+#aside{
+    width: 35%;
+}
+#aside #imgcoma{
+    margin-top: 66px;
+    width: 100%;
+}
+
+
